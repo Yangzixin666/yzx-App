@@ -1,0 +1,15 @@
+export const RECOMMEND_DATA = 'RECOMMEND_DATA'
+export const FETCH_CART_LOGIN = 'FETCH_CART_LOGIN';//登录
+export const FETCH_USERINFO = 'FETCH_USERINFO';//用户信息
+export const GET_SWIPER_IMG = 'GET_SWIPER_IMG';//轮播
+export const GET_HOME_NAVS = 'GET_HOME_NAVS';//首页导航
+export const FETCH_REG = "FETCH_REG";//注册
+export const FETCH_OUT = "FETCH_OUT";//退出
+export const GET_HOME_RECOMMEND = 'GET_HOME_RECOMMEND';
+export const FETCH_GOODS_LEFT = 'FETCH_GOODS_LEFT';//分类左侧
+export const FETCH_GOODS_RIGHT = 'FETCH_GOODS_RIGHT';//分类右侧
+export const FETCH_PASSWORD = 'FETCH_PASSWORD';//修改密码
+export const FETCH_IPHONE = 'FETCH_IPHONE';//绑定手机号
+export const FETCH_UNDATE_USER = 'FETCH_UNDATE_USER';//图片上传
+export const FETCH_MINE_COLLECTION = 'FETCH_MINE_COLLECTION';//收藏
+export const FETCH_MINE_DELETE = 'FETCH_MINE_DELETE';//收藏收藏

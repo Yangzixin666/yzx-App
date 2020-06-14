@@ -1,0 +1,73 @@
+.common-recommend{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .recommend-title{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    background: #efefef;
+    display: flex;
+    align-items: center;
+    .title-line{
+      width: 35%;
+      height: 1px;
+      background: #d4d4d4;
+    }
+    .title-text{
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bolder;
+      color: black;
+      font-size: 0.32rem;
+    }
+  }
+  .recommend-goods{
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    background: #efefef;
+    padding-left: 0.1rem;
+    padding-bottom: 1.1rem;
+    .goods-list{
+      width: 49%;
+      background: white;
+      margin: 0.1rem 0;
+      dl{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.32rem ;
+        dt{
+          width: 95%;
+          img{
+            width: 100%;
+            height: auto;
+            display: block;
+          }
+        }
+        dd{
+          >p{
+            &:first-child{
+              display: -webkit-box;
+              -webkit-line-clamp:2;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              -webkit-box-orient: vertical;
+            }
+            &:last-child{
+              color: red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
